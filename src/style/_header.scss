@@ -1,0 +1,122 @@
+$header_backgound: #16252a;
+$h1_color: #d3dee7;
+
+
+
+header { 
+  display: relative;
+  height: 720px;
+  background: $header_backgound;
+  padding-top: 52px;
+  @media screen and (max-width:700px) {
+     height: 800px;
+  }
+  @media screen and (max-width:500px) {
+    height: 700px;
+ }
+
+  .header-name {
+
+    max-width: 700px;
+    margin: 0 auto;
+
+    h1 {
+    
+    
+      color: $h1_color;
+      text-align: center;
+      font-family: 'Azoft Sans';
+      font-weight: 200;
+      font-size: 2.5em;
+      line-height: 1.2em;
+
+      @media screen and (max-width: 800px) {
+        font-size: 1.5em;
+      }
+    }
+    
+
+    
+
+  }
+
+  
+  
+  .banner {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    
+    color: white;
+    background: #0e191d;
+    
+    border-radius: 10px;
+    
+    padding: 62px 35px 25px;
+
+    @media screen and (max-width:1000px) {
+      padding: 30px 10px;
+    }
+    @media screen and (max-width:700px) {
+      position: relative;
+      margin: 0 10px;
+      right: 0;
+    top: 0;
+    }
+    
+
+    img {
+      display: block;
+      margin: 0 auto;
+      padding: 0 40px;
+
+      
+    }
+
+    .map-out-data {
+      text-align: center;
+        font-family: 'Azoft Sans';
+        font-weight: 200;
+        font-size: 5.45em;
+        @media screen and (max-width:1000px) {
+          font-size: 3em;
+        }
+        
+    }
+
+    .mln {
+      text-align: center;
+        font-family: 'Azoft Sans';
+        font-weight: 200;
+      font-size: 2em;
+
+      @media screen and (max-width:1000px) {
+        font-size: 1em;
+      }
+    }
+
+    .dashes{
+      position: absolute;
+      left:-35px;
+      top: 260px;
+      @media screen and (max-width:1000px) {
+        display: none;
+      }
+    }
+    .more {
+      margin-top: 50px;
+
+      @media screen and (max-width:1000px) {
+        padding: 10px 2px;
+        font-size: 0.8em;
+      }
+    }
+       
+
+
+      
+      
+    
+  }
+
+}

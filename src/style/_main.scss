@@ -1,0 +1,129 @@
+main {  
+  padding: 57px 0;
+   
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto;  
+}
+
+.col {
+  min-height: 212px;
+  margin: 10px 12px 16px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgb(204, 202, 202);
+  border-top: 0.5px solid  rgb(204, 202, 202);
+  overflow: hidden;
+  padding-bottom: 25px;
+
+  h2 {
+    font-family: 'Azoft Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 38px 32px 0;
+    font-size: 1.3em;
+  }
+  
+  p {
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    padding: 25px 32px 0;
+    color: #848484;
+
+    a {
+      color: #339af4;
+    }
+    
+    
+
+  }
+}
+
+.col-5{
+  width: 39.5%;  
+  @media screen and (max-width: 1200px) {
+    width: 100%;
+  }
+  
+}
+.col-4 {
+  width: 31.5%;  
+  @media screen and (max-width: 1200px) {
+    width: 47%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+.col-3 {
+  width: 22.5%;  
+  img {
+    width: 100%;
+  }
+  @media screen and (max-width: 1200px) {
+    width: 47%;
+  }
+  @media screen and (max-width: 800px) {
+    width: 100%;
+  }
+}
+.col-12 {
+  width: 100%;  
+}
+
+.button-group {
+   display: flex;
+   flex-direction: row;
+   justify-content: space-around;   
+   width: 450px;
+   margin: 30px 0 0 15px; 
+   @media screen and (max-width: 800px){
+    width: 100%;
+  }
+  .aButton {
+
+    @media screen and (max-width: 800px){
+      width: 100px;
+    }
+  }
+
+}
+
+
+.aButton {  
+  width: 200px;
+  padding: 15px 0;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Azoft Sans',Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: 1.5px;
+
+  @media screen and (max-width: 800px){
+    width: 100%;
+  }
+
+  &:hover {
+    transform: scale(1.02,1.03);
+  }
+  &:active {
+    transform: scale(1, 1.01);
+  }
+  
+}
+  .redButton {
+  background: linear-gradient(90deg, #a522e3, #fd2a58);
+  color: white;
+}
+
+  .whiteButton {
+  border: 2px solid #a731eb;
+  color: #a731eb;
+}
+
