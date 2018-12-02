@@ -1,5 +1,7 @@
 # Smart Map
 
++ Demo:  https://zmichgen.github.io/smart-map/
+
 ## Подключение
 
 + import SmartMap from (./map);
