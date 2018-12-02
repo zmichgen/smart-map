@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'Azoft Sans';
+  src: url(../fonts/azoft-sans.ttf) format("truetype"); }
+
+.init {
+  fill: gray; }
+
+.active {
+  fill: blue; }
+
+.map {
+  max-width: 762px;
+  max-height: 375px;
+  padding-left: 4px;
+  border: 1px solid  yellow; }
+
+.st0, .st1, .st2, .st3,
+.st4, .st5, .st6, .st7 {
+  fill: gray; }
+
+.sst6 {
+  fill: #1AC995; }
+
+.sst5 {
+  fill: #94DB21; }
+
+.sst0 {
+  fill: #8A27E5; }
+
+.sst1 {
+  fill: #2F80ED; }
+
+.sst7 {
+  fill: #4CB8F5; }
+
+.sst4 {
+  fill: #F2B94A; }
+
+.sst2 {
+  fill: #E82D53; }
+
+.sst3 {
+  fill: #F2724A; }
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.map-container {
+  max-width: 760px;
+  margin: 40px 425px 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .map-container {
+      margin-right: 300px; } }
+  @media screen and (max-width: 1000px) {
+    .map-container {
+      margin-right: 250px; } }
+  @media screen and (max-width: 700px) {
+    .map-container {
+      margin: 10px; } }
+
+.line {
+  margin-top: 40px; }
+
+.values {
+  padding-left: 10px;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white; }
+  .values p {
+    font-family: 'Azoft Sans';
+    font-weight: 200;
+    font-size: 1.2em;
+    line-height: 1.2em; }
+    @media screen and (max-width: 500px) {
+      .values p {
+        font-size: 0.8em; } }
+

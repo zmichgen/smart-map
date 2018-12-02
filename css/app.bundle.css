@@ -1,0 +1,293 @@
+@font-face {
+  font-family: 'Azoft Sans';
+  src: url(../fonts/azoft-sans.ttf) format("truetype"); }
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
+header {
+  display: relative;
+  height: 720px;
+  background: #16252a;
+  padding-top: 52px; }
+  @media screen and (max-width: 700px) {
+    header {
+      height: 800px; } }
+  @media screen and (max-width: 500px) {
+    header {
+      height: 700px; } }
+  header .header-name {
+    max-width: 700px;
+    margin: 0 auto; }
+    header .header-name h1 {
+      color: #d3dee7;
+      text-align: center;
+      font-family: 'Azoft Sans';
+      font-weight: 200;
+      font-size: 2.5em;
+      line-height: 1.2em; }
+      @media screen and (max-width: 800px) {
+        header .header-name h1 {
+          font-size: 1.5em; } }
+  header .banner {
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    color: white;
+    background: #0e191d;
+    border-radius: 10px;
+    padding: 62px 35px 25px; }
+    @media screen and (max-width: 1000px) {
+      header .banner {
+        padding: 30px 10px; } }
+    @media screen and (max-width: 700px) {
+      header .banner {
+        position: relative;
+        margin: 0 10px;
+        right: 0;
+        top: 0; } }
+    header .banner img {
+      display: block;
+      margin: 0 auto;
+      padding: 0 40px; }
+    header .banner .map-out-data {
+      text-align: center;
+      font-family: 'Azoft Sans';
+      font-weight: 200;
+      font-size: 5.45em; }
+      @media screen and (max-width: 1000px) {
+        header .banner .map-out-data {
+          font-size: 3em; } }
+    header .banner .mln {
+      text-align: center;
+      font-family: 'Azoft Sans';
+      font-weight: 200;
+      font-size: 2em; }
+      @media screen and (max-width: 1000px) {
+        header .banner .mln {
+          font-size: 1em; } }
+    header .banner .dashes {
+      position: absolute;
+      left: -35px;
+      top: 260px; }
+      @media screen and (max-width: 1000px) {
+        header .banner .dashes {
+          display: none; } }
+    header .banner .more {
+      margin-top: 50px; }
+      @media screen and (max-width: 1000px) {
+        header .banner .more {
+          padding: 10px 2px;
+          font-size: 0.8em; } }
+
+main {
+  padding: 57px 0; }
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.col {
+  min-height: 212px;
+  margin: 10px 12px 16px;
+  border-radius: 15px;
+  -webkit-box-shadow: 0 10px 30px #cccaca;
+          box-shadow: 0 10px 30px #cccaca;
+  border-top: 0.5px solid #cccaca;
+  overflow: hidden;
+  padding-bottom: 25px; }
+  .col h2 {
+    font-family: 'Azoft Sans', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding: 38px 32px 0;
+    font-size: 1.3em; }
+  .col p {
+    font-family: 'Myriad Pro', Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 0.9em;
+    line-height: 1.8em;
+    padding: 25px 32px 0;
+    color: #848484; }
+    .col p a {
+      color: #339af4; }
+
+.col-5 {
+  width: 39.5%; }
+  @media screen and (max-width: 1200px) {
+    .col-5 {
+      width: 100%; } }
+
+.col-4 {
+  width: 31.5%; }
+  @media screen and (max-width: 1200px) {
+    .col-4 {
+      width: 47%; } }
+  @media screen and (max-width: 800px) {
+    .col-4 {
+      width: 100%; } }
+
+.col-3 {
+  width: 22.5%; }
+  .col-3 img {
+    width: 100%; }
+  @media screen and (max-width: 1200px) {
+    .col-3 {
+      width: 47%; } }
+  @media screen and (max-width: 800px) {
+    .col-3 {
+      width: 100%; } }
+
+.col-12 {
+  width: 100%; }
+
+.button-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 450px;
+  margin: 30px 0 0 15px; }
+  @media screen and (max-width: 800px) {
+    .button-group {
+      width: 100%; } }
+  @media screen and (max-width: 800px) {
+    .button-group .aButton {
+      width: 100px; } }
+
+.aButton {
+  width: 200px;
+  padding: 15px 0;
+  border-radius: 50px;
+  text-align: center;
+  font-family: 'Azoft Sans',Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  font-size: 1em;
+  letter-spacing: 1.5px; }
+  @media screen and (max-width: 800px) {
+    .aButton {
+      width: 100%; } }
+  .aButton:hover {
+    -webkit-transform: scale(1.02, 1.03);
+        -ms-transform: scale(1.02, 1.03);
+            transform: scale(1.02, 1.03); }
+  .aButton:active {
+    -webkit-transform: scale(1, 1.01);
+        -ms-transform: scale(1, 1.01);
+            transform: scale(1, 1.01); }
+
+.redButton {
+  background: -webkit-gradient(linear, left top, right top, from(#a522e3), to(#fd2a58));
+  background: -webkit-linear-gradient(left, #a522e3, #fd2a58);
+  background: -o-linear-gradient(left, #a522e3, #fd2a58);
+  background: linear-gradient(90deg, #a522e3, #fd2a58);
+  color: white; }
+
+.whiteButton {
+  border: 2px solid #a731eb;
+  color: #a731eb; }
+
+@font-face {
+  font-family: 'Azoft Sans';
+  src: url(../fonts/azoft-sans.ttf) format("truetype"); }
+
+.init {
+  fill: gray; }
+
+.active {
+  fill: blue; }
+
+.map {
+  max-width: 762px;
+  max-height: 375px;
+  padding-left: 4px;
+  border: 1px solid  yellow; }
+
+.st0, .st1, .st2, .st3,
+.st4, .st5, .st6, .st7 {
+  fill: gray; }
+
+.sst6 {
+  fill: #1AC995; }
+
+.sst5 {
+  fill: #94DB21; }
+
+.sst0 {
+  fill: #8A27E5; }
+
+.sst1 {
+  fill: #2F80ED; }
+
+.sst7 {
+  fill: #4CB8F5; }
+
+.sst4 {
+  fill: #F2B94A; }
+
+.sst2 {
+  fill: #E82D53; }
+
+.sst3 {
+  fill: #F2724A; }
+
+.container {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto; }
+
+.map-container {
+  max-width: 760px;
+  margin: 40px 425px 0 auto; }
+  @media screen and (max-width: 1200px) {
+    .map-container {
+      margin-right: 300px; } }
+  @media screen and (max-width: 1000px) {
+    .map-container {
+      margin-right: 250px; } }
+  @media screen and (max-width: 700px) {
+    .map-container {
+      margin: 10px; } }
+
+.line {
+  margin-top: 40px; }
+
+.values {
+  padding-left: 10px;
+  max-width: 750px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: white; }
+  .values p {
+    font-family: 'Azoft Sans';
+    font-weight: 200;
+    font-size: 1.2em;
+    line-height: 1.2em; }
+    @media screen and (max-width: 500px) {
+      .values p {
+        font-size: 0.8em; } }
+
